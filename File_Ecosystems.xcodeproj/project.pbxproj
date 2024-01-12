@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09396F572B51EB13004813C2 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09396F562B51EB13004813C2 /* PersistanceController.swift */; };
+		0974A47D2B4B866700ADC70C /* View_Folder.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0974A47C2B4B866700ADC70C /* View_Folder.rtf */; };
+		0974A47F2B4B868500ADC70C /* Controller_Folder.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0974A47E2B4B868500ADC70C /* Controller_Folder.rtf */; };
+		0974A4812B4B86A600ADC70C /* Model_Folder.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0974A4802B4B86A600ADC70C /* Model_Folder.rtf */; };
+		0974A4872B4B898700ADC70C /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974A4862B4B898700ADC70C /* Controllers.swift */; };
+		0974A4892B4B899200ADC70C /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974A4882B4B899200ADC70C /* Views.swift */; };
+		0974A48B2B4BA3CA00ADC70C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974A48A2B4BA3CA00ADC70C /* Models.swift */; };
 		098E09252B49363E009A65A2 /* File_EcosystemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098E09242B49363E009A65A2 /* File_EcosystemsApp.swift */; };
 		098E09272B49363E009A65A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098E09262B49363E009A65A2 /* ContentView.swift */; };
 		098E09292B49363F009A65A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098E09282B49363F009A65A2 /* Assets.xcassets */; };
@@ -14,6 +21,7 @@
 		098E09372B49363F009A65A2 /* File_EcosystemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098E09362B49363F009A65A2 /* File_EcosystemsTests.swift */; };
 		098E09412B49363F009A65A2 /* File_EcosystemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098E09402B49363F009A65A2 /* File_EcosystemsUITests.swift */; };
 		098E09432B49363F009A65A2 /* File_EcosystemsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098E09422B49363F009A65A2 /* File_EcosystemsUITestsLaunchTests.swift */; };
+		09E1A8CA2B4FD81A0038C358 /* Ecosystem_Models.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E1A8C82B4FD81A0038C358 /* Ecosystem_Models.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09396F562B51EB13004813C2 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
+		0974A47C2B4B866700ADC70C /* View_Folder.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = View_Folder.rtf; sourceTree = "<group>"; };
+		0974A47E2B4B868500ADC70C /* Controller_Folder.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Controller_Folder.rtf; sourceTree = "<group>"; };
+		0974A4802B4B86A600ADC70C /* Model_Folder.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Model_Folder.rtf; sourceTree = "<group>"; };
+		0974A4862B4B898700ADC70C /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
+		0974A4882B4B899200ADC70C /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		0974A48A2B4BA3CA00ADC70C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		098E09212B49363E009A65A2 /* File_Ecosystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = File_Ecosystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		098E09242B49363E009A65A2 /* File_EcosystemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_EcosystemsApp.swift; sourceTree = "<group>"; };
 		098E09262B49363E009A65A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,7 @@
 		098E093C2B49363F009A65A2 /* File_EcosystemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = File_EcosystemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		098E09402B49363F009A65A2 /* File_EcosystemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_EcosystemsUITests.swift; sourceTree = "<group>"; };
 		098E09422B49363F009A65A2 /* File_EcosystemsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_EcosystemsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09E1A8C92B4FD81A0038C358 /* Ecosystem_Models.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecosystem_Models.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09396F552B51EAF6004813C2 /* Core_Data */ = {
+			isa = PBXGroup;
+			children = (
+				09E1A8C82B4FD81A0038C358 /* Ecosystem_Models.xcdatamodeld */,
+				09396F562B51EB13004813C2 /* PersistanceController.swift */,
+			);
+			path = Core_Data;
+			sourceTree = "<group>";
+		};
+		0974A4792B4B85ED00ADC70C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0974A4802B4B86A600ADC70C /* Model_Folder.rtf */,
+				0974A48A2B4BA3CA00ADC70C /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0974A47A2B4B860600ADC70C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0974A47C2B4B866700ADC70C /* View_Folder.rtf */,
+				0974A4882B4B899200ADC70C /* Views.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0974A47B2B4B861300ADC70C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0974A47E2B4B868500ADC70C /* Controller_Folder.rtf */,
+				0974A4862B4B898700ADC70C /* Controllers.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		098E09182B49363E009A65A2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +147,10 @@
 		098E09232B49363E009A65A2 /* File_Ecosystems */ = {
 			isa = PBXGroup;
 			children = (
+				09396F552B51EAF6004813C2 /* Core_Data */,
+				0974A47B2B4B861300ADC70C /* Controller */,
+				0974A47A2B4B860600ADC70C /* View */,
+				0974A4792B4B85ED00ADC70C /* Models */,
 				098E09242B49363E009A65A2 /* File_EcosystemsApp.swift */,
 				098E09262B49363E009A65A2 /* ContentView.swift */,
 				098E09282B49363F009A65A2 /* Assets.xcassets */,
@@ -234,6 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				098E092C2B49363F009A65A2 /* Preview Assets.xcassets in Resources */,
+				0974A47D2B4B866700ADC70C /* View_Folder.rtf in Resources */,
+				0974A47F2B4B868500ADC70C /* Controller_Folder.rtf in Resources */,
+				0974A4812B4B86A600ADC70C /* Model_Folder.rtf in Resources */,
 				098E09292B49363F009A65A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E1A8CA2B4FD81A0038C358 /* Ecosystem_Models.xcdatamodeld in Sources */,
 				098E09272B49363E009A65A2 /* ContentView.swift in Sources */,
 				098E09252B49363E009A65A2 /* File_EcosystemsApp.swift in Sources */,
+				0974A48B2B4BA3CA00ADC70C /* Models.swift in Sources */,
+				0974A4892B4B899200ADC70C /* Views.swift in Sources */,
+				0974A4872B4B898700ADC70C /* Controllers.swift in Sources */,
+				09396F572B51EB13004813C2 /* PersistanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +645,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09E1A8C82B4FD81A0038C358 /* Ecosystem_Models.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09E1A8C92B4FD81A0038C358 /* Ecosystem_Models.xcdatamodel */,
+			);
+			currentVersion = 09E1A8C92B4FD81A0038C358 /* Ecosystem_Models.xcdatamodel */;
+			path = Ecosystem_Models.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 098E09192B49363E009A65A2 /* Project object */;
 }
